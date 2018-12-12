@@ -42,6 +42,7 @@ document.onkeyup = function () {
     }
     if (guessLeft === -1){   //if guesses reach 0, alert and refresh page to start over
         alert("Game Over! Click OK to restart");
+        guessLeft = 0;
         window.location.reload();
     }
     //write counter values to html
