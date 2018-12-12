@@ -27,7 +27,7 @@ document.onkeyup = function () {
     userGuess = userGuess.toLowerCase(); //revert all responses to lower case
     //only display user guess if it is a letter
     if (computerGuesses.includes(userGuess) === true) {
-        yourGuessText.textContent = "Your Guess: " + userGuess;
+        yourGuessText.textContent = "My Guess: " + userGuess;
         computerGuess = computerGuesses[Math.floor(Math.random() * computerGuesses.length)];    //chooses random letter from computerGuesses
         davidBlaineText.textContent = "David Blaine's Guess: " + computerGuess;
     }
@@ -56,7 +56,7 @@ restartButton.addEventListener("click", function () {
 });
 
 //write guess and counter text to html
-yourGuessText.textContent = "Your Guess: ";
+yourGuessText.textContent = "My Guess: ";
 davidBlaineText.textContent = "David Blaine's Guess: ";
 winsText.textContent = "Wins: 0";
 lossesText.textContent = "Losses: 0";
