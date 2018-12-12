@@ -1,2 +1,2 @@
-# Psychic-Game
-JavaScript psychic game
+# Word-Guess-Game
+JavaScript word guess game
