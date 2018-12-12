@@ -40,7 +40,7 @@ document.onkeyup = function () {
         losses++;
         guessLeft--;
     }
-    if (guessLeft === 0){   //if guesses reach 0, alert and refresh page to start over
+    if (guessLeft === 1){   //if guesses reach 0, alert and refresh page to start over
         alert("Game Over! Click OK to restart");
         window.location.reload();
     }
